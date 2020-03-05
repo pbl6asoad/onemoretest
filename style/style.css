@@ -1,0 +1,236 @@
+header{
+    position: fixed;
+    top:0px;
+}
+body{
+    height: 2000px;
+    font-family: Work Sans,sans-serif;
+}
+#top{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-image: url(http://unvab.com/snow-free-html/assets/images/home-7.jpg);
+}
+.round{
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+#buttonMain{
+    padding: 18px 25px;
+    background: #252525;
+    margin: 35px 10px 0px 0px;
+    font-size: 14.4px;
+}
+#logo{
+    width: 85px;
+}
+#cover{
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+#topText{
+    z-index: 3;
+    padding: 60px 0;
+}
+#navbar{
+    padding: 33px 0px;
+    color: #bfbfbf;
+    font-size: 14.4px
+}
+
+#h2{
+    font-size: 13.95px;
+}
+#h1 {
+    font-size: 3.4rem;
+}
+#about-text__main{
+    padding: 89px 0 0 0;
+    font-family: Playfair Display,serif;
+    font-weight: 700;
+    font-size: 39px;
+    color:#171717;
+}
+#about-text__secondary{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color:#5f5f5f;
+
+}
+#about-wtf{
+    height: 105px;
+}
+#advantages{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/bg-pattern.jpg);
+    background-color:#252525;
+    color: #FFFFFF;
+}
+#advantages-wtf__top{
+    height: 70px;
+}
+#advantages-wtf__bottom{
+    height: 100px;
+}
+.advantages-example{
+    padding-top: 30px;
+}
+.projects-img__1{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-7-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.projects-img__2{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-4-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+  
+}
+.projects-img__3{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-5-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+ 
+}
+.projects-img__4{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-9-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.projects-img__5{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-3-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.projects-img__6{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-8-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.projects-img__7{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-2-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+ 
+}
+.projects-img__8{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-6-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+   
+}
+.projects-img__9{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/portfolio-12-sm.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+  
+}
+#slider{
+    background-image: url(http://unvab.com/snow-free-html/assets/images/bg-pattern.jpg);
+}
+.projects-imgs{
+    height: 100%;
+    padding-bottom: 72%;
+    position: relative;
+    text-align: center;
+}
+.projects-text__img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .slider-text{
+      font-size: 25.275px;
+      padding: 0 200px;
+      font-family: Playfair Display,serif;
+      font-style: italic;
+  }
+  .slider-wtf__top{
+      height: 160px;
+  }
+  .slider-wtf__bottom{
+      height: 102px;
+  }
+  .Michael {
+    font-family: Work Sans,sans-serif;
+      font-size: 14.4px;
+      font-style: normal;
+  }
+  
+ .slider-wtf__last{
+     height: 33px;
+ }
+
+/* .sponsors{
+ padding: 17px;
+}*/
+.sponsors-img{
+    padding: 5px;
+} 
+.blog{
+    background-color: #fafafa;
+    padding: 0 30px;
+}
+.blog-card{
+    margin: 0 15px;
+    background-color: white;
+    
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.03);
+}
+.blogs-image__img{
+    position: relative;
+}
+.blog-image__text{
+    bottom: 9px;
+    left: 10px;
+    color: white;
+  position: absolute;
+  display: block;
+  margin:0;
+  padding: 5.5px 15px;
+  font-size: 12px;
+  background-color: #252525;
+}
+.blog-text{
+    padding: 25px 30px;
+}
+.blogs{
+
+}
